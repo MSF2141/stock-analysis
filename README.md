@@ -25,7 +25,7 @@ Refactored VBA Code
 
 
 Original VBA Code
-![VBA_Challenge_2018](
+![VBA_Challenge_2018](https://github.com/MSF2141/stock-analysis/blob/f27bbee436474c9576185c06c1e3417b5b643aac/Resources/VBA_Challenge_2018.png)
 
 ### Analysis of Outcomes Based on Goals
 Briefly, to analyze campaign outcomes based on their campaign goals, a summary table was created that contained a “Goal” column with several dollar-amount ranges so campaigns could be filtered based on their goal amount.  A COUNTIF() function was used to collect information from the Kickstarter dataset about the outcome and goal amount for the “Plays” subcategory and to fill the "Number Successful," "Number Failed," and "Number Canceled" campaign columns. Per each goal-amount range, “Total  Projects” was calculated using a SUM() function.  
