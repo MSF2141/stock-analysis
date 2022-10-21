@@ -10,8 +10,9 @@ The purpose of this analysis is to refactor a VBA code for stock data analysis a
 
 ## **Results**
 Original and refactored script can be found here:
-[Kickstarter_Challenge](https://github.com/MSF2141/kickstarter-analysis/blob/ff87527236d5482eea37c1c45f67196edc69bc89/Kickstarter_Challenge.zip)
+[VBA_Challenge](https://github.com/MSF2141/stock-analysis/blob/df71324ba2be48367c9bef26d1e495ddf80cc07d/VBA_Challenge.zip)
 
+Using images and examples of your code, compare the stock performance between 2018 and 2018, as well as the execution times of the original script and the refactored script.
 ### Analysis of Outcomes Based on Launch Date
 Briefly, to analyze campaign outcomes based on their launch dates, the Kickstarter dataset was further processed to make the data more detailed. First, the “Category and Subcategory” column was split into two separate columns, “Parent category” and “Subcategory”. Second, the “Launched_at” and “Deadline” columns were converted from Unix timestamps (i.e., a measure of time in seconds since midnight of January 1, 1970) into a day-month-year format in new columns “Date Created Conversion” and “Date Ended Conversion”, respectively. Third, year was extracted from the “Date Created Conversion” column to a new “Years” column.  
 
@@ -32,6 +33,10 @@ To visualize the data as a relationship between the goal-amount ranges and perce
 
 
 ## **Summary**
+
+    What are the advantages or disadvantages of refactoring code?
+    How do these pros and cons apply to refactoring the original VBA script?
+
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 The month that launched the most successful Kickstarter campaigns is May, followed by June and July. These months also have similar numner of failed campaigns, which suggest that May is truely the most ideal month to launch a successful campaign.
 
