@@ -20,7 +20,12 @@ To summarize the data, a pivot table was created from the KickStarter worksheet 
 
 To visualize the data, a pivot chart was created from the pivot table. To display campaign outcomes with relation to the launched month, as continuous data over time, a line with markers chart type was selected. 
 
-![Outcomes_vs_Launch](https://github.com/MSF2141/kickstarter-analysis/blob/df7d9ee1ade3c2aa7ec4c6beb252f90852bf5cb7/Resources/Theater_Outcomes_vs_Launch.png)
+Refactored VBA Code
+![VBA_Challenge_2018_refactored](https://github.com/MSF2141/stock-analysis/blob/9f3766bcac3e77ec054fa10f6a1a70b20d7aaa3e/Resources/VBA_Challenge_2018_refactored.png)
+
+
+Original VBA Code
+![VBA_Challenge_2018](
 
 ### Analysis of Outcomes Based on Goals
 Briefly, to analyze campaign outcomes based on their campaign goals, a summary table was created that contained a “Goal” column with several dollar-amount ranges so campaigns could be filtered based on their goal amount.  A COUNTIF() function was used to collect information from the Kickstarter dataset about the outcome and goal amount for the “Plays” subcategory and to fill the "Number Successful," "Number Failed," and "Number Canceled" campaign columns. Per each goal-amount range, “Total  Projects” was calculated using a SUM() function.  
