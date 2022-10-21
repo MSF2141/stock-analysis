@@ -2,7 +2,7 @@
 
 
 ## **Overview of Project**
-A recent finance graduate, Steve, needed some stock data analysis for his parents. He provided the data to analyze in an excel sheet. In order to automate the analysis, the VBA was used. Initial script calculated quite quickly the total volume and yearly return for dozen of stocks and for last few years. It is, however, not sure whether the code would work on much larger dataset - thousands of stocks. It may take a long time to execute. 
+A recent finance graduate, Steve, needed some stock data analysis for his parents. He provided the data to analyze in an excel sheet. In order to automate the analysis, the VBA was used. Initial script calculated quite quickly the total volume and yearly return for dozen of stocks and for last few years. It is, however, not sure whether the code would work on much larger dataset - thousands of stocks. Even, it could take a long time to execute. 
 
 ### Purpose
 The purpose of this analysis is to refactor a VBA code for stock data analysis and measure the performance. 
