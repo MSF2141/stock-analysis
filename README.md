@@ -22,4 +22,4 @@ Refactored and original VBA script can be found here:
 
  
 ## **Summary**
-Stock performance is the same for the year 2018 regardless of the VBA code used. As per the execution times, the VBA script seems to run very slightly faster using the original VBA script. 
+Stock performance is the same for the year 2018 regardless of the VBA code used. As per the execution times, the VBA script seems to run slightly faster using the original VBA script. 
